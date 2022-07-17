@@ -9,10 +9,14 @@ namespace MyApp // Note: actual namespace depends on the project name.
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-
+            
             int Var1 = 10;
             int Var2 = 20;
             int Var3 = 30;
+
+            for (int test = 1; test <= 5; test++)
+            {
+                Console.WriteLine(test);
 
             Console.WriteLine(Var1);
             Console.WriteLine(Var2);
@@ -26,6 +30,11 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
             Console.WriteLine(Var1);
             Console.WriteLine(Var3);
+
+            Var1 = Var1 + 10;
+            Var1 = Var1 + 10;
+            Var1 = Var1 + 10;
+            }
         }
     }
 }
